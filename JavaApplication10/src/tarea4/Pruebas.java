@@ -57,12 +57,12 @@ public class Pruebas {
         return Math.pow(num, 2.0);
     }
 
-    public static double hipotenusa(double c1, double catetoB) {
-        return Math.sqrt(alCuadrado(c1) + alCuadrado(catetoB));
+    public static double hipotenusa(double cateto1, double cateto2) {
+        return Math.sqrt(alCuadrado(cateto1) + alCuadrado(cateto2));
     }
 
-    public static double catetoA(double hipotenusa, double catetoB) {
-        return Math.sqrt(alCuadrado(hipotenusa) - alCuadrado(catetoB));
+    public static double catetoA(double hipotenusa, double cateto) {
+        return Math.sqrt(alCuadrado(hipotenusa) - alCuadrado(cateto));
     }
 
     public static double mphAKmh(double mph) {
