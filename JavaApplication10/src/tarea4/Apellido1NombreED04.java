@@ -4,8 +4,20 @@
  */
 package tarea4;
 
+/**
+ * 
+ * @author MARIA
+ * @version 2
+ * @since 1.1
+ * 
+*/
+
 public class Apellido1NombreED04 {
 
+    /**
+     * 
+     * @param args 
+     */
     public static void main(String[] args) {
         System.out.println("60mph son " + Utilidades.kmhAms(Utilidades.mphAKmh(60)) + " metros por segundo");
         System.out.println("Si el cateto A mide 3cm y el cateto B mide 4cm, entonces la hipotenusa mide "
