@@ -6,21 +6,6 @@ package tarea4;
 
 public class Utilidades {
 
-    public static int diasEnMesArray(int mes, int anio) {
-        int[] diasPorMes = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        int dias = 0;
-
-        if (mes > 0 && mes < 13) {
-
-            dias = diasPorMes[mes];
-
-            if (mes == 2 && esBisiesto(anio)) {
-                dias++;
-            }
-        }
-        return dias;
-    }
-
     public static boolean esBisiesto(int anio) {
         return (anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0);
     }
